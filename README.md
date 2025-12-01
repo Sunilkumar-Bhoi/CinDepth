@@ -166,6 +166,7 @@ Notes for the programmer.
     putchar()
     suppresion character * 
 ## 4 operator and expression
+    type casting, order evaluation, diffrent operator and its precedence 
 ## 5 control statement
 ## 6 functions
 ## 7 recursion 
