@@ -1,6 +1,7 @@
 # C in depth 
 
-- 1 Introduction	
+- 1 Introduction
+    - preprocessor(expanded code) -> compiler(assembly code) -> assembler(object code .o) -> linker(executable file)
 - 2 Element of C
 - 3 Inout output in C
 - 4 operator and expression
