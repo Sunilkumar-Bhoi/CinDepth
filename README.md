@@ -1,22 +1,22 @@
 # C in depth 
 
-- 1 Introduction
-    - preprocessor(expanded code) -> compiler(assembly code) -> assembler(object code .o) -> linker(executable file)
-- 2 Element of C
-- 3 Inout output in C
-- 4 operator and expression
-- 5 control statement
-- 6 functions
-- 7 recursion 
-- 8 array
-- 9 pointer
-- 10 string
-- 11 structure union 
-- 12 files
-- 13 the C preprocessor
-- 14 operation on bits
-- 15 miscellaneous feature
-- 16 building project and creation of - libraries
-- 17 code optimisation in c
-- 18 c and assembly interaction
-- 19 library function
+## 1 Introduction
+    preprocessor(expanded code) -> compiler(assembly code) -> assembler(object code .o) -> linker(executable file)
+## 2 Element of C
+## 3 Inout output in C
+## 4 operator and expression
+## 5 control statement
+## 6 functions
+## 7 recursion 
+## 8 array
+## 9 pointer
+## 10 string
+## 11 structure union 
+## 12 files
+## 13 the C preprocessor
+## 14 operation on bits
+## 15 miscellaneous feature
+## 16 building project and creation of - libraries
+## 17 code optimisation in c
+## 18 c and assembly interaction
+## 19 library function
