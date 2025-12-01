@@ -159,6 +159,12 @@ Notes for the programmer.
 
 ---
 ## 3 Inout output in C
+    conversion, formating
+    scanf()
+    printf()
+    getchar()
+    putchar()
+    suppresion character * 
 ## 4 operator and expression
 ## 5 control statement
 ## 6 functions
