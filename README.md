@@ -169,7 +169,7 @@ Notes for the programmer.
     type casting, order evaluation, diffrent operator and its precedence 
 ## 5 control statement
     - if..else->nested & ladder , switch (selcetive statment)
-    - for, while, do while(iterative statment)
+    - for, while(){}, do{}while();(iterative statment)
     - goto, continue, break(jump statment)
 ## 6 functions
 ## 7 recursion 
