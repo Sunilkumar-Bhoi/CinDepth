@@ -171,6 +171,7 @@ Notes for the programmer.
     - if..else->nested & ladder , switch (selcetive statment)
     - for, while(){}, do{}while();, nesting of loop, infinite loop(iterative statment)
     - goto, continue, break(jump statment)
+    - pyramid (30+ question)
 ## 6 functions
 ## 7 recursion 
 ## 8 array
