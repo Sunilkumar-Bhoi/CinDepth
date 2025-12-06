@@ -2,5 +2,5 @@
 
 for((i=10;i<=62;i++))
 do
-	rm "program0$i.c"
+	echo "	return 0;" >> "program$i.c"
 done
