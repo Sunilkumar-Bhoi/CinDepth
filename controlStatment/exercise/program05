@@ -1,0 +1,15 @@
+program05.c:4:5: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+    4 |         if(!a<10 && !b||c)
+      |            ^ ~
+program05.c:4:5: note: add parentheses after the '!' to evaluate the comparison first
+    4 |         if(!a<10 && !b||c)
+      |            ^
+      |             (   )
+program05.c:4:5: note: add parentheses around left hand side expression to silence this warning
+    4 |         if(!a<10 && !b||c)
+      |            ^ 
+      |            ( )
+program05.c:4:7: warning: result of comparison of constant 10 with boolean expression is always true [-Wtautological-constant-out-of-range-compare]
+    4 |         if(!a<10 && !b||c)
+      |            ~~^~~
+2 warnings generated.
