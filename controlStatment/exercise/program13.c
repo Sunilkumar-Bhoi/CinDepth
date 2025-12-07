@@ -9,7 +9,7 @@ printf("a is 10, b is not");
 
 #include<stdio.h>
 int main(void){
-	int a=10,b=50,c=30;
+	int a=10,b=20,c=30;
 	if(a==10){
 		if(b==20){
 			if(c==30){

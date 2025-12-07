@@ -1,3 +1,17 @@
 #include<stdio.h>
 int main(void){
+	int x=2,y=20;
+	switch(x){
+		y=30; //not executed
+		case 1:
+			y++;
+			break;
+		case 2:
+			y--;//19
+			break;
+		default:
+			y=y+2;
+	}
+	printf("y is %d\n",y);
 	return 0;
+}
