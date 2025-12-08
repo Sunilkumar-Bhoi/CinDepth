@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(void){
 	int x,y;
-	x=30,y=5,x;
+	x=30,y=5,z;//error for not declaring z
 	if(x==10){
 		z++;
 	}
 	else if(x==20){
-		z---;
+		z--;
 	}
-	else if(x--30){
+	else if(x==30){
 		if(y==2){
 			z=z+3;
 		}
