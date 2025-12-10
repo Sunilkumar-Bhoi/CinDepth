@@ -1,5 +1,5 @@
 #include<stdio.h>
-int sum(int x, int y){/*no declaration is required when function is defined before the main../*/
+int sum(int x, int y){/*no declaration is required when function is defined before the main..*/
     return x+y;
 }
 int main(void){
