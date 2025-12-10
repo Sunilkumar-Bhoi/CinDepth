@@ -1,0 +1,4 @@
+program30.c:9:7: error: expected expression
+    9 | while()/*expected expression in it*/
+      |       ^
+1 error generated.
