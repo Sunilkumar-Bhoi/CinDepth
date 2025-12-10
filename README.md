@@ -173,6 +173,13 @@ Notes for the programmer.
     - goto, continue, break(jump statment)
     - pyramid (30+ question)
 ## 6 functions
+    - function is a block of code or subprogram that perform some task
+    - user defined function: functio created by user, inbuilt function(in stdio.h lib scanf(), printf()..etc)
+    - three thigs function declaration, function defination, function call
+    - formal and informal parameter 
+    - call by value 
+    - argument and return value, 4 possibilities (0,0)(0,1)(1,0)(1,1)
+    - global local and static variable
 ## 7 recursion 
 ## 8 array
 ## 9 pointer
