@@ -178,7 +178,7 @@ Notes for the programmer.
     - three thigs function declaration, function defination, function call
     - formal and informal parameter 
     - call by value 
-    - argument and return value, 4 possibilities (0,0)(0,1)(1,0)(1,1)
+    - argument and return value, 4 types of function (0,0)(0,1)(1,0)(1,1)
     - global local and static variable
 ## 7 recursion 
 ## 8 array
