@@ -21,8 +21,11 @@ int main(void){
 		printf("%d ",i);
 	}
 	printf("\n");
-	for(int i=0; i<=6;i++){
-		printf("%d ",1+(i*i));
+	int term=1;
+	for(int i=1; i<=6;i++){
+		printf("%d ",term);
+		term=term*2;
 	}
+	printf("\n");
 	return 0;
 }
