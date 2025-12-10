@@ -37,7 +37,7 @@ int main(void){
 	printf("\n");
 
 	for(i=0;i>10;i++)
-		printf("%d",i);/*no eexecution*/
+		printf("%d",i);/*no execution*/
 
 	printf("\n");
 
