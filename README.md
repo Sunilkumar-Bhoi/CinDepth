@@ -176,10 +176,14 @@ Notes for the programmer.
     - function is a block of code or subprogram that perform some task
     - user defined function: functio created by user, inbuilt function(in stdio.h lib scanf(), printf()..etc)
     - three thigs function declaration, function defination, function call
+    - return statment
+    - main function (only one in program,return zero and if non zero generate error,exit() is equvivalent to return)
+    ## function declaration by compiler, function defination by user, funvtion call by operating system.
+    - library funnction not a part of c language but supplied with compiler, user have only object code and it linked by linker
     - formal and informal parameter 
     - call by value 
     - argument and return value, 4 types of function (0,0)(0,1)(1,0)(1,1)
-    - global local and static variable
+    - local, global and static variable.
 ## 7 recursion 
 ## 8 array
 ## 9 pointer
