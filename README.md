@@ -172,18 +172,57 @@ Notes for the programmer.
     - for, while(){}, do{}while();, nesting of loop, infinite loop(iterative statment)
     - goto, continue, break(jump statment)
     - pyramid (30+ question)
-## 6 functions
-    - function is a block of code or subprogram that perform some task
-    - user defined function: functio created by user, inbuilt function(in stdio.h lib scanf(), printf()..etc)
-    - three thigs function declaration, function defination, function call
-    - return statment
-    - main function (only one in program,return zero and if non zero generate error,exit() is equvivalent to return)
-    ## function declaration by compiler, function defination by user, funvtion call by operating system.
-    - library funnction not a part of c language but supplied with compiler, user have only object code and it linked by linker
-    - formal and informal parameter 
-    - call by value 
-    - argument and return value, 4 types of function (0,0)(0,1)(1,0)(1,1)
-    - local, global and static variable.
+## 6. Functions
+
+- A function is a block of code (subprogram) that performs a specific task.
+- Types of functions:
+  - User-defined functions: created by the user
+  - Library (inbuilt) functions: provided in standard libraries  
+    e.g., `printf()`, `scanf()` from `stdio.h`
+
+- Three parts of a function:
+  1. Function declaration
+  2. Function definition
+  3. Function call
+
+- Return statement:
+  - Returns a value from a function
+  - Ends function execution
+
+- Main function:
+  - Only one `main()` function in a program
+  - Returns `0` on successful execution
+  - Non-zero return value indicates an error
+  - `exit()` is equivalent to `return` in `main()`
+
+- Function responsibility:
+  - Declaration → handled by compiler
+  - Definition → written by user
+  - Call → by operating system
+
+- Library functions:
+  - Not part of core C language
+  - Supplied with compiler as object code
+  - Linked by the linker
+
+- Parameters:
+  - Formal parameters → in function definition
+  - Actual parameters → in function call
+
+- Calling method:
+  - Call by value means value of actual parameter does not change
+
+- Types of functions (based on arguments and return value):
+  1. Without arguments and without return value
+  2. With arguments and without return value
+  3. Without arguments and with return value
+  4. With arguments and with return value
+
+- Variables:
+  - Local
+  - Global
+  - Static
+
 ## 7 recursion 
 ## 8 array
 ## 9 pointer
