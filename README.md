@@ -167,11 +167,30 @@ Notes for the programmer.
     suppresion character * 
 ## 4 operator and expression
     type casting, order evaluation, diffrent operator and its precedence 
-## 5 control statement
-    - if..else->nested & ladder , switch (selcetive statment)
-    - for, while(){}, do{}while();, nesting of loop, infinite loop(iterative statment)
-    - goto, continue, break(jump statment)
-    - pyramid (30+ question)
+## 5. Control Statements
+
+- **Selection (Decision) Statements**
+  - `if`
+  - `if...else`
+  - Nested `if...else`
+  - `else-if` ladder
+  - `switch`
+
+- **Iteration (Looping) Statements**
+  - `for` loop
+  - `while` loop
+  - `do...while` loop
+  - Nesting of loops
+  - Infinite loops
+
+- **Jump Statements**
+  - `goto`
+  - `break`
+  - `continue`
+
+- **Pattern Programs**
+  - Pyramid patterns (30+ questions)
+
 ## 6. Functions
 
 - A function is a block of code (subprogram) that performs a specific task.

@@ -1,4 +1,4 @@
-/*Write a function reverse () that inputs a number and returns the reverse o f that number, for example if the
+/*Write a function reverse () that inputs a number and returns the reverse of that number, for example if the
 input is 1293, function should retum 3921.*/
 #include<stdio.h>
 
