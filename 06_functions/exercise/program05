@@ -1,0 +1,13 @@
+program05.c:6:12: error: too few arguments to function call, expected 3, have 2
+    6 |         s=func(1,2);//few few argument
+      |           ~~~~    ^
+program05.c:2:5: note: 'func' declared here
+    2 | int func(int a,int b,int c);
+      |     ^    ~~~~~~~~~~~~~~~~~
+program05.c:8:15: error: too many arguments to function call, expected 3, have 4
+    8 |         s=func(1,2,3,4);//too many arguement
+      |           ~~~~       ^
+program05.c:2:5: note: 'func' declared here
+    2 | int func(int a,int b,int c);
+      |     ^    ~~~~~~~~~~~~~~~~~
+2 errors generated.

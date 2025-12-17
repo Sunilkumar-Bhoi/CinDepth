@@ -1,0 +1,4 @@
+program02.c:6:3: error: assigning to 'int' from incompatible type 'void'
+    6 |         x=func(2,3);/*a value of type "void" cannot be assigned to an entity of type "int"*/
+      |          ^~~~~~~~~~
+1 error generated.

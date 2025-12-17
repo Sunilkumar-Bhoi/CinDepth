@@ -1,0 +1,7 @@
+program07.c:11:6: error: redefinition of 'x'
+   11 |         int x=2;
+      |             ^
+program07.c:9:14: note: previous definition is here
+    9 | int func(int x,int y)
+      |              ^
+1 error generated.

@@ -1,0 +1,9 @@
+program04.c:2:15: error: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+    2 | int add(int x,y,z)//error we cant define like this we have to specify type for each variable
+      |               ^
+      |               int
+program04.c:2:17: error: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+    2 | int add(int x,y,z)//error we cant define like this we have to specify type for each variable
+      |                 ^
+      |                 int
+2 errors generated.
