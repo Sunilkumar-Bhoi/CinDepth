@@ -1,16 +1,14 @@
 #include<stdio.h>
-int diff(int x, int y)
-{
-	return x-y;
-}
-int sum(int x,int y)
-{
-	return x+y;
-}
+void func(int x, int y);
 int main(void)
 {
-	int a=20,b=5,c=3,d=6;
-	printf("%d\t",a+diff(d,c));//23
-	printf("%d\n",diff(a,sum(diff(b,c),d)));//12
+	int x;
+	x=func(5,6)=100;//expression is not assigneble and also we cant assiign void function to any variable
+	printf("%d",x);
 	return 0;
+}
+void func(int x,int y)
+{
+	int z;
+	z=x+y;
 }
