@@ -5,6 +5,7 @@ int main(void)
 	{
 		return a+b;
 	}
+	
 	int c;
 	c = func(3,5);
 	printf("%d\n",c);
