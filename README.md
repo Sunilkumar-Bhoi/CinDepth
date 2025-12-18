@@ -243,6 +243,13 @@ Notes for the programmer.
   - Static
 
 ## 7 recursion 
+  - recursion is a process in which a problem is defined in term of it self
+  - recursive function is a funtion that call itself.
+    - void rec(){
+        rec();
+     }
+    - work in two phase winding and unwinding.
+  - undestanding the recursion through out various classic example
 ## 8 array
 ## 9 pointer
 ## 10 string
