@@ -10,7 +10,6 @@ int display(int n)
     return sum;
 }
 int main(void)
-
 {
     int num;
     printf("enter number : ");
