@@ -241,7 +241,12 @@ Notes for the programmer.
   - Local
   - Global
   - Static
-
+-notes
+  - we can call function inside another functiom
+  - type cast function explicitly (void)sum(a,b);
+  - arimatic operation in function call posiible
+  - type automatically cast between local and passed parameter
+  - static variable can not used to store value in function declaration
 ## 7 recursion 
   - recursion is a process in which a problem is defined in term of it self
   - recursive function is a funtion that call itself.
