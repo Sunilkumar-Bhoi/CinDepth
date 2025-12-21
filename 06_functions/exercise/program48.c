@@ -1,3 +1,4 @@
+/*single line isprime() function using sumPdivisor()*/
 #include<stdio.h>
 int sumPdivisor(int n);
 int isprime(int n);
@@ -13,11 +14,11 @@ int main(void)
 	return 0;
 }
 int isprime(int n){
-	if(n<=1)
-		return 0;
-	if(sumPdivisor(n)==1)
-		return 1;
-	return 0;
+	// if(n<=1)
+	// 	return 0;
+	// if(sumPdivisor(n)==1)
+	// 	return 1;
+	return (sumPdivisor(n)==1)?1:0;
 }
 int sumPdivisor(int n)
 {
