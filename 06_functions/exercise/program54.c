@@ -13,22 +13,21 @@ int main(void)
 void twinPrime(void)
 {
 	int i,j;
-	for(i=2; i<=1000; i++)
+	for(i=2; i<=998; i++)
 	{
-		if(i%2==0)
+		if(i%2==0 && i!=2)
 			continue;
 		if(prime(i) && prime(i+2))
-			printf("%d %d, ",i,i+2);
+			printf("(%d,%d)  ",i,i+2);
 	}
 }
 int prime(int n)
 {
-	int flag=1,j;
+	int j;
 	for(j=2;j<=sqrt(n); j++)
 	{
 		if(n%j==0)
 		{
-			flag=0;
 			return 0;
 		}
 	}

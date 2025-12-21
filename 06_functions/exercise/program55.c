@@ -5,7 +5,7 @@ int main(void)
 {
 	int year;
 	printf("Enter a year: ");
-	scanf("%d,",&year);
+	scanf("%d",&year);
 	if(isleap(year))
 		printf("Leap year\n");
 	else 
@@ -15,9 +15,7 @@ int main(void)
 
 int isleap(int n)
 {
-	if(n%100==0 && n%400==0)
-		return 1;
-	if(n%4==0)
+	if( ((n%400==0)) || ((n%4==0 && n%100!=0)) )
 		return 1;
 	return 0;
 }

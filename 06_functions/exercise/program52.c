@@ -14,13 +14,13 @@ int main(void)
 
 char upperCase(char c)
 {
-	if(c >= 97 && c <= 122)
-		return (c-32);
+	if(c>='a' && c<='z')
+		return (c - ('a' - 'A'));
 	return c;
 }
 /*
 	ASCII
 	48=0.....57=9
-	65=A....91=Z
+	65=A....90=Z
 	97=a....122=z
 */

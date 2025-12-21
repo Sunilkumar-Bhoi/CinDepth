@@ -34,20 +34,20 @@ int product(int x, int y)
 int quotient(int x, int y)
 {
 	int count=0;
-	do
+	while (x>=y)
 	{
 		x=x-y;
 		count++;
-	} while (x>=y);
+	} 
 	
 	return count;
 }
 
 int reminder(int x, int y)
 {
-	do
+	while (x>=y)
 	{
 		x=x-y;
-	} while (x>=y);
+	} 
 	return x;
 }
