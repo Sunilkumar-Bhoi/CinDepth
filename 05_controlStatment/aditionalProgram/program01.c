@@ -17,7 +17,7 @@ int main(void){
             flag=0;
     }
     else if (m==4 || m==6 || m==9 || m==11){ /*Check says in April, June, Sept, Nov*/
-        if (d==3)
+        if (d==31)
             flag=0;
     }
     if(flag==0)
