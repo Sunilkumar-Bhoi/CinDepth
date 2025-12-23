@@ -307,6 +307,8 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
 | Stack space/Memory is limited. | Operating on complex structures like Trees. |
 | The problem is simple and linear. | Sacrificing efficiency for code readability and maintenance is acceptable. |
 ---
+  - tail recursion & augmentive recursion
+  - direct and indirect recursion(complex and rarely used)
 ## 8 array
 ## 9 pointer
 ## 10 string
