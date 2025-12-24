@@ -1,4 +1,4 @@
-for((i=1; i<=9; i++))
+for((i=10; i<=15; i++))
 {
-    touch "program0$i".c
+    touch "program$i".c
 }
