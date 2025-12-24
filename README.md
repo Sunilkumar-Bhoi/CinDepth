@@ -310,6 +310,37 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
   - tail recursion & augmentive recursion
   - direct and indirect recursion(complex and rarely used)
 ## 8 array
+  - array is collection of similar type data items. this data items are called element of array.
+  - 1-D(vector), 2-D(matrix), multidimension array based on number of subscripts.
+  - **One dimentional array**
+    - *Declaration* : data_type array_name [size];
+    - *Accessing* : array name followed by subscript in braces.
+    - *Proccesing* : using loop.
+    - After declaration, the elements of a local array have garbage value while the elements of global and static array are automatically initialized to zero.
+    - *Initialization of 1D array*
+      - data_type array_name[SIZE] = {1,2,3....};
+  - **Array in functions**
+    - we cam pass individual element of array and whole array.
+    - When an array is passed as an actual argument, the called function actually gets access to the original array and works on it, so any changes made inside the function affect the original array
+  - **Two dimensional array**
+    - declaration and accessing the 2D array.
+    - data_type array_name [rowSIZE][colSIZE] = {{1,2},{1,2}}.
+    - processing using two nested loop.
+    - initializing 2D array.
+      - int arr[4][3] ={11,12,13,14,15,16,17,18,19,20,21,22};
+      - it is optional to specify first dimension but secund is madnatory, arr[][3];
+  - **multidimesion array**
+    - 3d array has left most number of 2d array.int a[2][3][4] means two 3x4 array.
+    - we can ommit only left most subscript,other all subscript are requireed to specify.
+    - func(int a[],int b[][2],int c [][2][3]);   *valid*
+  - **introduction to string**
+    - strings is array of type char.
+    - terminated by nulll character "\0".
+    - initialization
+      - char string[10]={'i','n','d','i','a','\n' };
+      - char string[10]="india"; add automatic null character at end.
+      - I/O using printf(), scanf().
+      - I/O using gets(), puts().
 ## 9 pointer
 ## 10 string
 ## 11 structure union 
