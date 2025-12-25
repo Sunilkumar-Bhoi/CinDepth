@@ -3,12 +3,11 @@
 void reverse()
 {
     char c;
-    c=getchar();
-    if (c != '\n')
-    {
-        reverse();
-        putchar(c);
-    }
+    c = getchar();
+    if (c == ' ')
+        return;
+    reverse();
+    putchar(c);
 }
 int main(void)
 {
