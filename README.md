@@ -342,6 +342,28 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
       - I/O using printf(), scanf().
       - I/O using gets(), puts().
 ## 9 pointer
+  - use of pointer make code more efficient and compact.
+  #### **use of pointer**
+    - simulating call by referance
+    - return more than one variable in function.
+    - accesing dynamically allocated memory.
+    - implement dat structure like graph, tree, linked list.
+    - improve efficiency
+ - **about memory**
+    - we declare before use. so compiler know how much space to reserve for variable.
+    - the address of variable is a first byte address.
+ - **address operator**
+    - "&" is a address operator, which return address of variable when olaced before it.
+    -  formate specifier %p is used to print address.
+ - **pointer variable**
+    - is a variable that store memory address.
+    - it also take space & have name.
+    - called pointer because it point particular location in memory by storing address of location.
+ - **declaration of pointer variable**
+    - data_type *pname
+ - **assigning address to pointer variabble**
+    - int age=30,*iptr=&age;
+    - gloabl and static pointer conatin NULL and automatic pointer contain any location of memory if not assigned address.
 ## 10 string
 ## 11 structure union 
 ## 12 files
