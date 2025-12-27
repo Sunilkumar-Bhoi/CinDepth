@@ -1,5 +1,5 @@
 /*program to insert an iten in a sorted array at the proper place by shifting other
-ementa to the right*/
+elment to the right*/
 
 #define SIZE 10
 #include <stdio.h>

@@ -1,4 +1,4 @@
-/*Write a program to sort the elements o f a 1-D array, i n ascending order through insertion sort.*/
+/*Write a program to sort the elements o f a 1-D array, in ascending order through insertion sort.*/
 #define SIZE 100 
 #include<stdio.h>
 
