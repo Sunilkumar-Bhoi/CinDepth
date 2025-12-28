@@ -395,7 +395,13 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
     - arr, &arr[0] base address of array.
     - *(arr+i),*(i+arr),i[arr] all are same and print value of arr[i];
  - **subscripting pointer variable**
-    -
+    - arr will always point out base address or starting address of an array we can't assign another address, increament or adiition
+    so we use pointer for do that
+ - **pointer to an array**
+    - int (*ptr) [10];
+    - it point whole array.
+ - **pointer and two dimesional array**
+    - (*(*arr+i)+j)
 ## 10 string
 ## 11 structure union 
 ## 12 files
