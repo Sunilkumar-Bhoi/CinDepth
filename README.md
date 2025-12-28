@@ -341,6 +341,15 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
       - char string[10]="india"; add automatic null character at end.
       - I/O using printf(), scanf().
       - I/O using gets(), puts().
+  - **additional program**
+    - 1. linear search
+    - 2. binary search
+    - 3. selection sort
+    - 4. bubble sort
+    - 5. insertion sort
+    - 6. merge sort
+    - 7. pascle triangle
+    - 8. magic matrix
 ## 9 pointer
   - use of pointer make code more efficient and compact.
   #### **use of pointer**
@@ -364,6 +373,29 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
  - **assigning address to pointer variabble**
     - int age=30,*iptr=&age;
     - gloabl and static pointer conatin NULL and automatic pointer contain any location of memory if not assigned address.
+ - **dereferancing pointer variable**
+    - we can access indirect variable using indirection operator(*), placing before pointer variable.
+    - size of all type of pointer is same but memory accessed while derefarencing is different
+ - **pointer arithematic**
+   - all type of arithematic operation are not possible with pointer.
+   - possible operations are : 
+      - addition of an integer to a pointer and increament.
+      - subtraction of an integer to a pointer and decreament.
+      - subtraction of pointer from snother pointer of same type.
+ - **precedence of dereferancing operator and increament and decrement operator.**
+    - precedance of bith of this is same and right to left. so we need to use it carefully.
+ - **pointer comparision**
+    - comparison happen between same type of pointer, null and nul, null and any other type of pointer.
+    - ==. != is used to compare two pointer for finding weather they contain same address or not.
+    - <,>,<=,>= make sence for only when both pointer pointing same element of array.
+ - **pointer to pointer**
+    - syntax **ptr;
+    - used when pass pointer to function.
+ - **pointer and one dimension array**
+    - arr, &arr[0] base address of array.
+    - *(arr+i),*(i+arr),i[arr] all are same and print value of arr[i];
+ - **subscripting pointer variable**
+    -
 ## 10 string
 ## 11 structure union 
 ## 12 files

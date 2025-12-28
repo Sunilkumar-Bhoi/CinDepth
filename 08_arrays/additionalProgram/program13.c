@@ -6,7 +6,7 @@
 int main(void)
 {
     int n, i, j, num;
-    int arr[MAX][MAX] = {0}; // Initialize array to 0
+    int arr[MAX][MAX] = {0}; 
 
     printf("Enter n (must be odd): ");
     do
@@ -16,8 +16,6 @@ int main(void)
             printf("Magic square is only possible for odd numbers. Enter odd n: ");
     } while (n % 2 == 0);
 
-    // --- Siamese Method Initialization ---
-    // Start at Top Row, Middle Column
     i = 0;
     j = n / 2;
 
@@ -25,7 +23,6 @@ int main(void)
     {
         arr[i][j] = num;
 
-        // Optimization: If the number we just placed is a multiple of n,
         // the next number goes directly BELOW the current one.
         if (num % n == 0)
         {
@@ -47,12 +44,11 @@ int main(void)
         }
     }
 
-    // --- Output ---
     printf("\nMagic Matrix of Order %d:\n\n", n);
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
-            printf("%4d ", arr[i][j]); // Corrected formatting (%4d)
+            printf("%4d ", arr[i][j]);
         printf("\n");
     }
 
