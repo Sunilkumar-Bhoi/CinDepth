@@ -385,24 +385,109 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
  - **precedence of dereferancing operator and increament and decrement operator.**
     - precedance of bith of this is same and right to left. so we need to use it carefully.
  - **pointer comparision**
-    - comparison happen between same type of pointer, null and nul, null and any other type of pointer.
+    - comparison happen between same type of pointer, null and null, null and any other type of pointer.
     - ==. != is used to compare two pointer for finding weather they contain same address or not.
     - <,>,<=,>= make sence for only when both pointer pointing same element of array.
  - **pointer to pointer**
     - syntax **ptr;
     - used when pass pointer to function.
  - **pointer and one dimension array**
+    - array name in expression, value of name work as constant pointer(arr->&arr[0]).
+    - increamenting the pointer gives address of next array element.
     - arr, &arr[0] base address of array.
     - *(arr+i),*(i+arr),i[arr] all are same and print value of arr[i];
  - **subscripting pointer variable**
     - arr will always point out base address or starting address of an array we can't assign another address, increament or adiition
-    so we use pointer for do that
+    so we use pointer for do that.
  - **pointer to an array**
-    - int (*ptr) [10];
+    - int (*ptr) [10]; point array of 10 integer.
     - it point whole array.
  - **pointer and two dimesional array**
-    - (*(*arr+i)+j)
-## 10 string
+    - arr point 0th 1d array.
+    - *arr point 0th element of 0th 1d array
+    - (arr+i) point ith 1d array.
+    - *(arr+i) point 1st elemnt of ith 1d array.
+    - *(arr+i)+j point jth elemnt of ith 1d array.
+    - (*(*arr+i)+j) represent the value of jth element of ith 1D array.
+    - 2D array is collection of one dimensional array placed one after another.
+ - **Subscripting Pointer to an Array**
+    - *(*(ptr+i)+j).
+ - **pointer to three dimension array**
+    - *(*(*(arr+i)+j)+k).
+ - **pointer and function**
+    - argument in function 1.call by referance 2.call by value.
+    - call by referance help to return more than one value in function and also reduce overhead of making copy evrytime at function call.
+ - **returning more than one value in function**
+    - by passing the pointer in function we can return more than one value.
+    - function call pass the address and in function defination use pointer for that.
+- **function returning pointer**
+    - int *func(int x, int y...)
+    - this will return address from this function
+    - int *ptr=func();
+ - **passing one dimesion array to function**
+    - a whole array os never copied insted function get pointer of first element of array.
+ - **pssinf two dimension array to function**
+    - when 2d array is passed in function, function actually got pointer of 1-D array.
+    - left most dimension is option, func(int [][4]),func(int (*a)[4]).
+- **array of pointer(pointer array)**
+    - it can hold address of any variable of appropriate type. 
+    - data_type *Array_name[size];
+    - 2d array we store address of 0th element of ith 1d array in array pointer. it also allow to create ragged array,arr[i][j] to access element of array.
+- **void pointer**
+    - void pointer is a generic pointer that can point any type of data.
+    - a void pointer cant directly dereferenced, before dereferancing, it should be cast in appropriate pointer data type. i.e *(int *)pa.
+    -(float *)vp is calculation not a variable so cant dtore any value in it.
+- **dynamic memory allocation**
+  - until now all allocation was static mean we are could not allocate or deallocate it
+  - two problem arise while static memory
+      1. wastage of memory if we use less than allocated memory.
+      2. program fail if we use more than declare memory.
+  - the process of allocating memory at the time of execution is call DMA.
+  - done using stdlib.h library. function from this allocate memory from area called heap and deallocate when not required.
+  - pointer play important role in DMA,because we can access DMA using pointers only.
+- **malloc()**
+  - declaration : void *malloc(size_r,size);
+  - size is used to determine the number of bytes to allocate amf size_t is define in stdlib.h
+  - malloc() is used to allocate memory.
+  - it return first address of allocated byte, if insufficient space return null.
+  - explicitly cast in required data type ex.
+    - int *ptr;
+      ptr=(int *)malloc(12);
+ - **calloc()**
+  - declaration void *calloc(size_t, size_t,size);
+  - allocate different block of number in memory.
+  - two value passed number of block and size of each block 5,4 means 5 block each of 4bytes.
+  - first diff two value and secund allocate memory initialize with zero.
+- **realloc**
+  - void realloc(int *ptr,size_t,newsize);
+  - used to change the size of memory block without loosing the data.
+  - this is known as reallocation of memory.
+  - takes two argument first one is previously allocated pointer address and secund is new size.
+  - if newsize is large than old then no data lost.
+  - realloc work as malloc if ptr is NULL pointer and undefine if ptr is not return by malloc, realloc,calloc.
+- **free()**
+  - declaration void free(int *p);
+  - used to deallocate memory manually so problems like memory leakage not happen and we can use that space for other work.
+- **dynamic array**
+  - arrays whose size can vary during run time.
+  - we can use subscript notaion for pointer and pointer for susbscript notation.
+  - 1d,2d array creation using pointer.
+- **23.pointer to function**
+  - every function resides inside memory so every function has its own address. we can obtain by simply writing name without paranthesis.
+- **23.1declaring a pointer to function**
+  - we have seen that function has a address,so we can have pointer that can store address and hence point to them.
+  - declaration of pointer to function : return_type (*ptr_name)(type1, type2...);
+  - **float (\*fp)(int a, int b);** declaring a function pointer
+  - **float func(int a, int b)** declaring a function
+  - **fp=func;** assign address of function to pointer*
+- **23.2calling function through function pointer**
+  - r= func(a,b); -> usual way of calling function
+  - r= (*fp)(a,b); -> using function pointer.
+  - r= (fp)(a,b); -> indirection operator can be ommited.
+- **23.3 Passing a function's address as an argument to other function**
+  - we can call function using its refference.
+- **23.4 function pointer**
+  - Function pointer can be used in applications where we don't know in advance which function will be called. in that case we can take the addresses of different functions in an array and then call the appropriate function depending on some index number.
 ## 11 structure union 
 ## 12 files
 ## 13 the C preprocessor
