@@ -1,0 +1,7 @@
+program16.c:7:10: error: invalid operands to binary expression ('int[8]' and 'int')
+    7 |     q=arr/2; //division is not an pointer arithematic
+      |       ~~~^~
+program16.c:8:8: error: invalid operands to binary expression ('int *' and 'int')
+    8 |     p=q*2;//multply is not an pointer arithematic 
+      |       ~^~
+2 errors generated.
