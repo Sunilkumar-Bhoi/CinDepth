@@ -1,0 +1,4 @@
+program6.c:9:12: error: cannot increment value of type 'int[5]'
+    9 |         arr++;//name of array is constant pointer cant perform increment operation on it
+      |         ~~~^
+1 error generated.
