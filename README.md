@@ -488,6 +488,28 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
   - we can call function using its refference.
 - **23.4 function pointer**
   - Function pointer can be used in applications where we don't know in advance which function will be called. in that case we can take the addresses of different functions in an array and then call the appropriate function depending on some index number.
+## 10 Strings
+  - **introduction**
+    - there is no specific data type for string in c. it is treated as array of character ending with "\0". "\0" is different from ASCII 0.
+    - used to store and manupulate data in form like word or sentance.
+  - **10.1 string constant(string literals)**
+    - is a sequence of chcaracter enclosed with double quoutes. char c[]="sunil";
+    - string constant are stored in memory and the literal itself contain the address of first character and automatically ter inated by \0.
+    - "software[4]" = *(software+4) = w
+    - char *p = "deep", space is allocated for pointer and deep is stored in memory somewhere.
+    - "red" "fort" -> "red fort"
+  - **10.2 string variable**
+    - is 1D array of ASCII character includeing \0.
+    - to create a string variable declare a array of string.
+    - char str[10]={'s','t',...} or "str..";
+    - str here store first address of 's'.
+    - gets(), puts() for i/o but gets overwrite the array when large string is entered.
+  - **10.3 string libraries**
+    -string.h
+    - **10.3.1 strlen()** -> return length of string excluding null character.
+    - **10.3.2 strcmp()** -> return 0 if equal and non zero if two string are not equal s1>s2, s1<2 inly shows which one is large.
+    - **10.3.3 strcpy()** -> copy str2 int str1 including '\0'.
+    - **10.3.4 strcat()** -> append secund string after first string.
 ## 11 structure union 
 ## 12 files
 ## 13 the C preprocessor
