@@ -1,0 +1,4 @@
+program24.c:13:6: error: array type 'int[10]' is not assignable
+   13 |     b=&x;
+      |     ~^
+1 error generated.
