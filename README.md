@@ -436,7 +436,7 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
 - **void pointer**
     - void pointer is a generic pointer that can point any type of data.
     - a void pointer cant directly dereferenced, before dereferancing, it should be cast in appropriate pointer data type. i.e *(int *)pa.
-    -(float *)vp is calculation not a variable so cant dtore any value in it.
+    -(float *)vp is calculation not a variable so cant store any value in it.
 - **dynamic memory allocation**
   - until now all allocation was static mean we are could not allocate or deallocate it
   - two problem arise while static memory
@@ -472,15 +472,15 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
   - arrays whose size can vary during run time.
   - we can use subscript notaion for pointer and pointer for susbscript notation.
   - 1d,2d array creation using pointer.
-- **23.pointer to function**
+- **23. pointer to function**
   - every function resides inside memory so every function has its own address. we can obtain by simply writing name without paranthesis.
-- **23.1declaring a pointer to function**
+- **23.1 declaring a pointer to function**
   - we have seen that function has a address,so we can have pointer that can store address and hence point to them.
   - declaration of pointer to function : return_type (*ptr_name)(type1, type2...);
   - **float (\*fp)(int a, int b);** declaring a function pointer
   - **float func(int a, int b)** declaring a function
   - **fp=func;** assign address of function to pointer*
-- **23.2calling function through function pointer**
+- **23.2 calling function through function pointer**
   - r= func(a,b); -> usual way of calling function
   - r= (*fp)(a,b); -> using function pointer.
   - r= (fp)(a,b); -> indirection operator can be ommited.
