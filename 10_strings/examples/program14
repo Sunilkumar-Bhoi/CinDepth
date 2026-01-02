@@ -1,0 +1,4 @@
+program14.c:11:12: error: array type 'char[10]' is not assignable
+   11 |     arr[0] = "sunil";  /*invalid*/
+      |     ~~~~~~ ^
+1 error generated.

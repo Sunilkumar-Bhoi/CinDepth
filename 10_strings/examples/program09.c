@@ -1,0 +1,15 @@
+/*Nesting of strcat() and strcpy() functions*/
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    char str1[30]="subhash";
+    char str2[10]="chandra";
+    char str3[30];
+    strcat(strcat(str1,str2),"bose");
+    printf("%s\n",str1);
+    strcat(strcpy(str3,"dev"),"anshi");
+    printf("%s\n",str3);
+    return 0;
+}
