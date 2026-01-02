@@ -510,6 +510,32 @@ Recursion is the preferred tool when dealing with **Recursively Defined Data Str
     - **10.3.2 strcmp()** -> return 0 if equal and non zero if two string are not equal s1>s2, s1<2 inly shows which one is large.
     - **10.3.3 strcpy()** -> copy str2 int str1 including '\0'.
     - **10.3.4 strcat()** -> append secund string after first string.
+  - **10.4 string pointer**
+    - char *str="sunil"
+    - point first charcter address of string constant.
+  - **10.5 array of string or two dimesional array of character**
+    -  str[5][10];
+    - first subscript denotes number of strings and secund denotes maximum length that each string can have.
+    - we cant assign without inialization.
+    - to assign value use scanf or strcpy.
+  - **10.6 array of pointer to string**
+    - char *arrp[]={"sunil","....",..}
+    - we can asign value like a[0],a[1] becase each one is now pointer variable.
+  - **10.7 string library function**
+    -**10.7.1 strncpy()** -> copy n number of character and remaining null, return value of str1, add remaining char as null.
+    -**10.7.2 strncat()** -> same as strcat() but concatenates only  portion of string to another string. return value of str1.
+    - **10.7.3 strncmp()** -> same as strcmp(), but it compare character of a string of a specific length.
+    - **10.7.4 strchr(), strrchr()** ->strchr() return pointer to leftmost occurance of character if present else return null.
+    strrchr() return pointer to rightmost ocurrance of character in string else retun null.
+    - **10.7.5 strpbrk()** -> return pointer to first character of string 1 that matches with ant character of string 2. and null if nothing is common.
+    - **10.7.6 strspn(), strcspn()** -> strspn() return number of character in the beggining of string 1 that matches with any character of string 2.
+    strncspn() return number of character in beggining of string one that doest matches with any character of string 2.
+    - **10.7.7 strstr()** -> used to locate the first occurance of substring in another.
+    first argument is pointer to string in which substring is to be searched. retun pointer to the beggining of first occurance of substring.
+    - **10.7.8 strtok()** -> this function is used to extract tokens from a string based on some separator characters. A sequence of calls to
+strtok ( ) breaks the string s1 into tokens, where each token is delimited by a character from the string s2. 
+- **10.7.9 sprintf()** -> similar to printf() exept it store the formated output in array, help to convert any data type into string, appednd null at end. return number of characters output to the string excluding null character.
+- **10.7.10 sscanf()** -> This function is same as the scan () function except that data is read from a string rather than the standard input. We can read the formatted text from a string and convert it into variables of different data types.
 ## 11 structure union 
 ## 12 files
 ## 13 the C preprocessor
