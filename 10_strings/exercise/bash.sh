@@ -1,4 +1,4 @@
-for((i=4; i<=9; i++))
+for((i=10; i<=15; i++))
 {
     cat structure.txt > "program0$i.c"
 }

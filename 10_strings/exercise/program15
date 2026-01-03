@@ -1,0 +1,4 @@
+program015.c:8:6: error: array type 'char[20]' is not assignable
+    8 |     y="Anjali";
+      |     ~^
+1 error generated.
