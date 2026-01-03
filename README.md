@@ -537,6 +537,12 @@ strtok ( ) breaks the string s1 into tokens, where each token is delimited by a 
 - **10.7.9 sprintf()** -> similar to printf() exept it store the formated output in array, help to convert any data type into string, appednd null at end. return number of characters output to the string excluding null character.
 - **10.7.10 sscanf()** -> This function is same as the scan () function except that data is read from a string rather than the standard input. We can read the formatted text from a string and convert it into variables of different data types.
 ## 11 structure union 
+- array is a collection of same type of data, but structure is capable of storing different type of date in a single name.
+- **11.1 declaring a structure typr**
+  - struct tagname{dt mem1; dt mem2; dtmemn};
+  - declaration doest reserve any space in memory.
+- **11.2 declaring structure variable**
+  - 
 ## 12 files
 ## 13 the C preprocessor
 ## 14 operation on bits
