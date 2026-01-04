@@ -32,9 +32,9 @@ int binarySearch(int arr[], int size, int item)
         if (arr[mid] == item)
             return mid;
         if (item < arr[mid])
-            high = mid + 1;
+            high = mid - 1;
         else
-            low = mid - 1;
+            low = mid + 1;
     }
     return -1;
 }
